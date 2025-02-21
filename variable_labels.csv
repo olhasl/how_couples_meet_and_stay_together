@@ -1,0 +1,388 @@
+variable_name,variable_label
+caseid_new,unique case ID
+weight1,Main Weight for all respondents
+weight2,Main Weight for Partnered Respondents
+ppage,respondent age at time of HCMST wave I survey
+ppagecat,age - 7 categories
+ppagect4,age - 4 categories
+ppeduc,education (highest degree received)
+ppeducat,education (categorical)
+ppethm,race / ethnicity
+ppgender,gender
+pphhhead,household head
+pphouseholdsize,"including yourself, how many people currently live in your household at least 50"
+pphouse,housing type
+ppincimp,household income
+hhinc,dollar value hhinc based on categorical var ppincimp
+ppmarit,marital status
+ppmsacat,msa status
+ppreg4,region 4 - based on state of residence
+ppreg9,region 9 - based on state of residence
+pprent,ownership status of living quarters
+ppt01,number of children age <2 in HH
+ppt1317,number of children age 13-17 in HH
+ppt18ov,number of adults age 18+ in HH
+ppt25,number of children age 2-5 in HH
+ppt612,number of children age 6-12 in HH
+children_in_hh,number of children in hh based on  ppt01+ ppt25+ ppt612+ ppt1317
+ppwork,current employment status
+ppnet,hh has its own Internet access at the time of core adult profile
+ppq14arace,which of these races do you identify with most closely?
+pphispan,"are you of spanish, hispanic, or latino descent?"
+pprace_white,white
+pprace_black,black
+pprace_nativeamerican,native american
+pprace_asianindian,asian indian
+pprace_chinese,chinese
+pprace_filipino,filipino
+pprace_japanese,japanese
+pprace_korean,korean
+pprace_vietnamese,vietnamese
+pprace_otherasian,other asian
+pprace_hawaiian,hawaiian
+pprace_guamanian,guamanian
+pprace_samoan,samoan
+pprace_otherpacificislander,other pacific islander
+pprace_someotherrace,some other race
+papglb_friend,"q22:do you have any friends or relatives who you know to be gay, lesbian, or bis"
+pppartyid3,derived: political party affiliation (3 categories)
+papevangelical,q26a:would you describe yourself as a born-again or evangelical christian?
+papreligion,q26:what is your religion?
+ppppcmdate_yrmo,date member completed first core profile survey in YYYYMM format
+pppadate_yrmo,date member completed public affairs survey in YYYYMM format
+pphhcomp11_member2_age,member 2 : age
+pphhcomp11_member3_age,member 3 : age
+pphhcomp11_member4_age,member 4 : age
+pphhcomp11_member5_age,member 5 : age
+pphhcomp11_member6_age,member 6 : age
+pphhcomp11_member7_age,member 7 : age
+pphhcomp11_member8_age,member 8 : age
+pphhcomp11_member9_age,member 9 : age
+pphhcomp11_member10_age,member 10 : age
+pphhcomp11_member11_age,member 11 : age
+pphhcomp11_member12_age,member 12 : age
+pphhcomp11_member13_age,member 13 : age
+pphhcomp11_member14_age,member 14 : age
+pphhcomp11_member15_age,member 15 : age
+pphhcomp11_member2_gender,member 2 : gender
+pphhcomp11_member3_gender,member 3 : gender
+pphhcomp11_member4_gender,member 4 : gender
+pphhcomp11_member5_gender,member 5 : gender
+pphhcomp11_member6_gender,member 6 : gender
+pphhcomp11_member7_gender,member 7 : gender
+pphhcomp11_member8_gender,member 8 : gender
+pphhcomp11_member9_gender,member 9 : gender
+pphhcomp11_member10_gender,member 10 : gender
+pphhcomp11_member11_gender,member 11 : gender
+pphhcomp11_member12_gender,member 12 : gender
+pphhcomp11_member13_gender,member 13 : gender
+pphhcomp11_member14_gender,member 14 : gender
+pphhcomp11_member15_gender,member 15 : gender
+pphhcomp11_member2_relationship,member 2 : relationship to you
+pphhcomp11_member3_relationship,member 3 : relationship to you
+pphhcomp11_member4_relationship,member 4 : relationship to you
+pphhcomp11_member5_relationship,member 5 : relationship to you
+pphhcomp11_member6_relationship,member 6 : relationship to you
+pphhcomp11_member7_relationship,member 7 : relationship to you
+pphhcomp11_member8_relationship,member 8 : relationship to you
+pphhcomp11_member9_relationship,member 9 : relationship to you
+pphhcomp11_member10_relationship,member 10 : relationship to you
+pphhcomp11_member11_relationship,member 11 : relationship to you
+pphhcomp11_member12_relationship,member 12 : relationship to you
+pphhcomp11_member13_relationship,member 13 : relationship to you
+pphhcomp11_member14_relationship,member 14 : relationship to you
+pphhcomp11_member15_relationship,member 15 : relationship to you
+irb_consent,irb consent
+weight3,Supplementary weight for all qualified glb and non-glb separately
+weight4,Supplementary weight for genpop and augment samples weighted separately
+weight5,Supplementary weight for all qualified respondents scaled from weight4
+weight6,Supplementary weight for total glb genpop and augment respondents
+weight7,Supplementary weight for total qualified glb genpop and augment respondents
+weight_couples_coresident,Supplementary weight ACS-based couples race weight for coresident couples
+HCMST_main_interview_yrmo,year and month HCMST main survey was completed in YYYYMM format
+duration,"interview duration in minutes, rounded down"
+qflag,Does respondent have a spouse or partner?
+glbstatus,glb status including asking again those who refused to answer in the PAP
+papglb_status,"q23: are you yourself gay, lesbian, or bisexual?"
+recsource,recruitment source
+s1,are you married?
+s1a,"are you yourself gay, lesbian, or bisexual?"
+s2,"do you have a boyfriend, a girlfriend, a sexual partner or a romantic partner?"
+q3_codes,name of partner was refused
+q4,is [partner_name] male or female?
+q5,is [partner_name] the same gender as you?
+q6a,is [partner_name] latino or hispanic?
+q6b,what is [partner_name]'s race?
+q7a,would [partner_name] describe [himself/herself/themself] as a born-again or evan
+q7b,what is [partner_name]'s religion?
+q8a,is [partner_name]s religion today the same as [partner_name]s religion when [h
+q8b,what was [partner_name]s religion when [he/she/they] was/were 16 years old?
+q9,how old is [partner_name]?
+q10,what is the highest level of schooling [partner_name] has completed?
+q11,what is the highest level of schooling [partner_name]s mother has completed?
+q12,"generally speaking, does [partner_name] think of [himself/herself/themself] as:"
+q13a,is your religion today the same as your religion when you were 16 years old?
+q13b,what was your religion when you were 16 years old?
+q14,what is the highest level of schooling your mother has completed?
+q15a1_compressed,"between birth and age 16, where did you spend most of the time living"
+q16,how many of your relatives do you see in person at least once a month?
+q17a,"including your current marriage, how many times have you been married?"
+q17b,how many times have you been married?
+q17c,"What gender are you most attracted to, sexually? (for women)"
+q17d,"What gender are you most attracted to, sexually? (for men)"
+gender_attraction,based on q17c and q17d
+q18a_1,Have domestic partnership
+q18a_2,Have Civil Union
+q18a_3,Have neither Domestic Partnership nor Civil Union
+q18a_refused, [refused] do you and [partner_name] have:
+q18b_codes,q18b refusals
+q18c_codes,codes
+q19,are you currently living with [partner_name]?
+q20,have you ever lived together with [partner_name]?
+q21a,how old were you when you first met [partner_name]?
+q21a_refusal,respondents who refused q21a
+q21b,how old were you when your romantic relationship with [partner_name] began?
+q21b_refusal,respondents who refused q21b
+q21c,how old were you when you first lived together with [partner_name]?
+q21c_refusal,respondents who refused q21c
+q21d,how old were you when you married [partner_name]?
+q21d_refusal,respondents who refused q21d
+q21e,how old were you when you joined in domestic partnership or civil union with [pa
+q21e_refusal,respondents who refused q21e
+q22,how long have you been in a romantic relationship with [partner_name]?
+q23,"between you and [partner_name], who earned more income in 2008:"
+q24_codes,refused q24
+q25,did you and [partner_name] attend the same high school?
+q26,did you and [partner_name] attend the same college or university?
+q27,did you and [partner_name] grow up in the same city or town?
+q28,did your parents know [partner_name]s parents before you met [partner_name]?
+q29,which of your parents are alive today:
+q30,how does your [father and mother/father/mother] feel about [partner_name]?
+q31_1, [work] where did you meet [partner_name]?
+q31_2, [school] where did you meet [partner_name]?
+q31_3, [church/church activity] where did you meet [partner_name]?
+q31_4, [personal ads/dating service via the internet] where did you meet [partner_name
+q31_5, [vacation/business trip] where did you meet [partner_name]?
+q31_6, [bar/nightclub/dance club] where did you meet [partner_name]?
+q31_7, [social organization/health club/gym/volunteer-service activity] where did you
+q31_8, [private party] where did you meet [partner_name]?
+q31_9, [other] where did you meet [partner_name]?
+q31_other_text_entered,"Did subject enter any text for q31_9, i.e. 'Other'"
+q32,did you use an internet service to meet [partner_name]?
+q33_1, [family] who introduced you to [partner_name]?
+q33_2, [mutual friends or acquaintances] who introduced you to [partner_name]?
+q33_3, [co-workers] who introduced you to [partner_name]?
+q33_4, [classmates] who introduced you to [partner_name]?
+q33_5, [neighbors] who introduced you to [partner_name]?
+q33_6, [introduced self or partner introduced self] who introduced you to [partner_nam
+q33_7, [other] who introduced you to [partner_name]?
+q33_other_text_entered,"Did subject write text for q33_7, i.e q33 'other'"
+q34,"in general, how would you describe the quality of your relationship with [partne"
+q35_codes,codes
+q35_text_entered,"Did subject write text for q35, 'Describe the Quality of Your Relationship'"
+q24_met_online,met online according to q24
+summary_q24_total,total of all q24 codes
+q24_R_cowork,Respondent's coworker: intermediary or Partner
+q24_R_friend,Respondent's friend: intermediary
+q24_R_family,Respondent's family: intermediary
+q24_R_sig_other,Respondent's (current or past) Significant Other: intermediary
+q24_R_neighbor,Respondent's residential neighbor: intermediary or Partner
+q24_P_cowork,Partner's coworker: Intermediary or Respondent
+q24_P_friend,Partner's friend: intermediary
+q24_P_family,Partner's family: intermediary
+q24_P_sig_other,Partner's (current or past) Significant Other: intermediary
+q24_P_neighbor,Partner's neighbor: intermediary or Respondent
+q24_btwn_I_cowork,coworker relationship between Intermediaries
+q24_btwn_I_friend,friendship between intermediaries
+q24_btwn_I_family,family relationship between intermediaries
+q24_btwn_I_sig_other,significant other relationship between intermediaries
+q24_btwn_I_neighbor,intermediaries are neighbors
+q24_school,primary or secondary school
+q24_college,college or university
+q24_military,military service
+q24_church,church or religious organization
+q24_vol_org,voluntary organization (non-church)
+q24_customer,customer-client relationship
+q24_bar_restaurant,"bar, restaurant, or other public social gathering place"
+q24_internet_dating,internet dating web site
+q24_internet_social_networking,internet social networking website
+q24_internet_game,internet gaming website
+q24_internet_chat,internet chat
+q24_internet_community,internet web site not mainly dedicated to dating
+q24_internet_other,"internet, not otherwise classified"
+q24_public,met in public space
+q24_private_party,private party
+q24_blind_date,met on blind date
+q24_vacation,met while on vacation
+q24_singles_service_non_internet,met through non-internet dating or singles service
+q24_business_trip,met while on business trip
+q24_work_neighbor,met as work neighbors
+q24_fam_sister_active,specific family intervention in respondent meeting partner from q24
+q24_fam_brother_active,specific family intervention in respondent meeting partner from q24
+q24_fam_mother_active,specific family intervention in respondent meeting partner from q24
+q24_fam_father_active,specific family intervention in respondent meeting partner from q24
+q24_fam_other_active,specific family intervention in respondent meeting partner from q24
+q24_fam_cousins_active,specific family intervention in respondent meeting partner from q24
+q24_fam_aunt_niece_active,specific family intervention in respondent meeting partner from q24
+q24_fam_uncle_nephew_active,specific family intervention in respondent meeting partner from q24
+q24_fam_grandmother_active,specific family intervention in respondent meeting partner from q24
+q24_fam_grandfather_active,specific family intervention in respondent meeting partner from q24
+q24_fam_sister_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_brother_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_mother_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_father_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_other_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_cousins_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_aunt_niece_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_uncle_nephew_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_grandmother_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_grandfather_passive,specific family intervention in respondent meeting partner from q24
+q24_fam_female,"did any female family members introduce couple, see q24_fam"
+q24_fam_male,"did any male family members introduce couple, see q24_fam"
+distancemoved_10mi,"Distance in Miles between resp home town and current home, to nearest 10 mi"
+marrynotreally,q18c indicates not really married
+marrycountry,"same-sex couple marriage country, based on q18c"
+civilnotreally,q18b indicates not really in civil union or domestic parternship
+partner_deceased,text answers from main survey imply that reported partner is deceased
+partner_religion_reclassified,"q7b partner religion reclassified from Other, please specify, based on text answ"
+partner_religion_child_reclass,q8b partner childhood religion reclassified from Other
+own_religion_child_reclass,q13b own religion at age 16 reclassified from Other
+q32_internet,summary of q32 internet categories
+how_met_online,"type of internet meeting based on q24 text, q32, q33, age, and when met"
+either_internet,q32 or q24 internet
+either_internet_adjusted,"either_internet adjusted by how_met_online, takes account of misreporting of int"
+same_sex_couple,best guess as to whether the couple is a same-sex couple
+potential_partner_gender_recodes,"partner gender recoded based on partner name, glb status, and attraction."
+alt_partner_gender,new partner gender variable based on q4 and   potential_partner_gender_recodes
+how_long_ago_first_met,"how long ago respondent met partner, in years, based on ppage and q21a"
+how_long_ago_first_romantic,"how long ago romance with partner began, in years, based on ppage and q21b"
+how_long_ago_first_cohab,"how long ago cohabitation with partner began, in years, from ppage and q21c"
+how_long_ago_first_met_cat,"In years, categorical, based on  how_long_ago_first_met"
+how_long_relationship,"relationship duration, in years, based on ppage, q21b, and  q22"
+respondent_race,"6 cat respondent race/hispanic from pprace_white, etc, ppq14arace, and pphispan"
+partner_race,6 cat partner/spouse race/hispanicity from q6a and q6b
+age_difference,absolute value of ppage-q9
+met_through_friends,combination of  q24_R_friend and  q24_P_friend
+met_through_family,combination of q24_R_family and  q24_P_family
+met_through_as_neighbors,combination of  q24_R_neighbor and  q24_P_neighbor
+met_through_as_coworkers,combination of  q24_R_cowork and  q24_P_cowork
+respondent_religion_at_16,combination of  papreligion and q13b
+respondent_relig_16_cat,respondent religion 5 category based on  respondent_religion_at_16
+partner_religion_at_16,combination of q7b and q8b
+partner_relig_16_cat,partner religion 5 category based on  partner_religion_at_16
+married,"married at time of main survey, based on s1"
+parental_approval,based on q30
+respondent_yrsed,"Respondent yrs education based on ppeduc, first demographic background survey"
+partner_yrsed,Partner yrs education based on q10
+home_country_recode,recode home country from Other
+US_raised,US raised based on q15a1
+partner_mom_yrsed,partner's mother's years of education based on q11
+respondent_mom_yrsed,respondent's mother's years of education based on q14
+relationship_quality,"relationship quality, based on q34, higher number is better"
+coresident,respondent and partner coresident based on q19
+pp2_afterp1,Did respondent complete a second background survey after HCM main survey?
+pp2_pphhhead,household head
+pp2_pphhsize,household size
+pp2_pphouse,housing type
+pp2_ppincimp,household income
+pp2_ppmarit,marital status
+pp2_ppmsacat,msa status
+pp2_ppeduc,education (highest degree received)
+pp2_ppeducat,education (categorical)
+pp2_respondent_yrsed,Respondent yrs education based on pp2_ppeduc
+pp2_ppethm,race / ethnicity
+pp2_ppreg4,region 4 - based on state of residence
+pp2_ppreg9,region 9 - based on state of residence
+pp2_pprent,ownership status of living quarters
+pp2_ppt01,number of children age <2 in HH
+pp2_ppt1317,number of children age 13-17 in HH
+pp2_ppt18ov,number of adults age 18+ in HH
+pp2_ppt25,number of children age 2-5 in HH
+pp2_ppt612,number of children age 6-12 in HH
+pp2_ppwork,current employment status
+pp2_ppnet,hh has its own Internet access at the time of the pp2 core adult profile
+pp2_ppcmdate_yrmo,date second background survey completed in YYYYMM format
+pp_igdr1,flag.  gender value imputed at time of baseline survey
+pp_ieduc1,flag. education value imputed at time of baseline survey
+pp2_igdr2,flag. gender value imputed at time of follow-up survey
+pp2_ieduc2,flag.  education value imputed at time of followup survey
+w2_deceased,text answers imply that reported partner is deceased
+w2_multiname,text answers include multiple partner names
+w2_panelstat,flag.  panel status at time of assignment
+w2_donotcontact,flag.  withdrawn cases on noncontact list
+w2_assigned,flag.  survey assignment flag
+w2_f1complete,flag.  completed followup survey
+w2_HCMST_interview_fin_yrmo,year and month subject finished second wave interview in YYYYMM format
+w2_duration,"wave 2 interview duration in minutes, rounded down"
+w2_xmarry,data only: respondent is married or partnered
+w2_xss,Respondent has same-sex partner AND does Not have domestic partnership
+w2_source,interview source (online or telephone)
+w2_q1,are you still married to [partner]?
+w2_q2,are you currently living with [partner]?
+w2_q3,how did your marriage to [partner] end?
+w2_q4,"between you and [partner], who wanted the [divorce/separation] more?"
+w2_q5,are you still in a romantic relationship with [partner]?
+w2_q6,are you currently living with [partner]?
+w2_q7,"in the past 12 months, have you and [partner] gotten married?"
+w2_q8,"in the past 12 months, have you and [partner] gotten a formal domestic partnersh"
+w2_q9,how did your relationship with [partner] end?
+w2_q10,"between you and [partner], who wanted more to break up?"
+w2_broke_up,based on  w2_q5 and  w2_q1
+w2_days_elapsed,"days between wave 1 and wave 2, w2_tm_finish- tm_finish, converted to days"
+pp3_pphhhead,Household Head
+pp3_pphhsize,Household Size
+pp3_pphouse,Housing Type
+pp3_ppincimp,Household Income
+pp3_ppmarit,Marital Status
+pp3_ppmsacat,MSA Status
+pp3_pprent,Ownership Status of Living Quarters
+pp3_ppreg4,Region 4 - Based on State of Residence
+pp3_ppreg9,Region 9 - Based on State of Residence
+interstate_mover_pp1_pp2,subject resided in different state in pp2 and pp1
+interstate_mover_pp2_pp3,subject resided in different state in pp2 and pp3
+interstate_mover_pp1_pp3,subject resided in different state in pp1 and pp3
+pp3_ppt01,number of children age <2 in HH
+pp3_ppt1317,number of children age 13-17 in HH
+pp3_ppt18ov,number of adults age 18+ in HH
+pp3_ppt25,number of children age 2-5 in HH
+pp3_ppt612,number of children age 6-12 in HH
+pp3_ppwork,Current Employment Status
+pp3_ppnet,hh has its own Internet access at the time of the pp3 core adult profile
+pp3_ppcmdate_yrmo,date third background survey was completed in YYYYMM format
+pp3_ppeduc,Education (Highest Degree Received)
+pp3_ppeducat,Education (Categorical)
+pp3_respondent_yrsed,Respondent yrs education based on pp3_ppeduc
+pp3_ppethm,Race / Ethnicity
+pp3_newer,is pp3 more recent core demographic data than pp2 or pp1?
+w2w3_combo_breakup,break-up across wave 2 and wave 3
+w3_broke_up,couple broke up or partner deceased at wave 3
+w3_xpartnered,is subject partnered (one element of being qualified) for wave 3 survey
+w3_xdeceased,is subject unqualified for w3 bc partner was deceased at main survey?
+w3_multiname,original main survey response did not give name for partner
+w3_xss,data only: resp has same-sex partner but does not have civ union or domestic par
+w3_xlast,whether respondent was last contacted 1 or 2 years ago
+w3_xyear,year of last contact
+w3_xmonth,month of last contact
+w3_xqualified,is subject qualified for wave 3
+w3_status,KN panel status for wave 3 qualified subjects.
+w3_complete,did subject complete wave 3 survey?
+w3_source,Interview source (online or telephone)
+w3_HCMST_interview_fin_yrmo,year and month subject finished 3rd wave interview in YYYYMM format
+w3_days_elapsed,days elapsed between wave 1 and wave 3
+w3_duration,"Interview duration in minutes, rounded down"
+w3_xmarry,Respondent is married or partnered
+w3_xtype,same-sex or heterosexual couple
+w3_q1,Are you still married to [xNameP]?
+w3_q2,Are you currently living with [xNameP]?
+w3_q3,How did your marriage to [xNameP] end?
+w3_q4,"Between you and [xNameP], who wanted the [divorce/separation] more?"
+w3_mbtiming_year,[Year:] When did you get [divorced/separated] from [xNameP]?
+w3_mbtiming_month,[Month:] When did you get [divorced/separated] from [xNameP]?
+w3_q5,Are you still in a romantic relationship with [xNameP]?
+w3_q6,Are you currently living with [xNameP]?
+w3_q7,"In the past [year/two years], have you and [xNameP] gotten married?"
+w3_q8,"In the past [year/two years], have you and [xNameP] gotten a formal domestic par"
+w3_q9,How did your relationship with [xNameP] end?
+w3_q10,"Between you and [xNameP], who wanted more to break up?"
+w3_nonmbtiming_year,[Year:] When did you break-up with [xNameP]?
+w3_nonmbtiming_month,[Month:] When did you break-up with [xNameP]?
